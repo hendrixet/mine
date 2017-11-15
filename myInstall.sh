@@ -8,7 +8,3 @@ sudo apt install "git"
 sudo apt install "python3-pip"
 sudo pip install "scapy"
 ./setUpGit
-cd mine
-cp -f .vimrc ..
-cd ..
-rm -rf mine

@@ -1,0 +1,44 @@
+DESIGN PATTERNS
+
+factory: the factory can return any implementation of an interface, because it returns objects typed to the interface
+
+singleton:
+    problem: exactly one instance of a class is allowed in a 'singleton.' Objects need a global point of access
+    solution: define a static method of the class that returns the 'singleton'
+    static: is a form of visibility even thought it is not attached to an object. For example, this gives you a method without having to instantiate an entire object, making, in a sense, an object more global 
+
+strategy: 
+    problem: how to design for varying but related algorithms or policies? How to design for the ability to change algorithms or polic
+    solution: define each algorithm/policy/strategy in a separate class with a common interface
+    strategy: choose a strategy based on some context i.e. choosing a sorting algorithm based on the data type/size/etc....
+    example: Point of Sale (PoS) system that has to handle different discounts/price adjustments/etc can decide on pricing strategies based on different contexts i.e. bulk/coupon/membership/etc
+
+composite:
+    problem: how to treat a group the same way as a non-group
+    solution: 
+
+GoF Design Patterns and GRASP:
+    observer: 
+    
+    composite: this supports 
+        high cohesion: by increasing the generic use of interactioon
+        polymorphism: 
+    
+    facade: this supports low coupling and possibly high cohesion by wrapping complicated libraries into simple wrappers that can now interact with each other on a higher level
+
+    factory: goes hand-in-hand with the creator GRASP pattern because it clearly assigns the responsibility of object-creation
+        pure fabrication: doesn't usually exist in the domain model
+        creator: 
+
+    singleton: makes use of almost all GRASP patterns
+        creator: creates one instance
+        information expert: responsible for knowing its information, easily available in a static context    
+    
+    adapter: 
+        indirection: redirecting 
+        polymorphism:
+        fabrication: creates an object to 
+
+Liskov Substitution Principle:
+    idea: any class should be able to be substituted by another class and the code should not break 
+    
