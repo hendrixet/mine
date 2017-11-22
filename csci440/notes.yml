@@ -1,0 +1,49 @@
+11/21/17
+
+Chapter 7: Wireless and Mobile Networks 
+
+two important challenges: 
+        1. wireless: communication over wireless link
+        2. mobility: handling the mobile user who changes point of attachment to network
+wired networks: still exist - at the end of the day, everything is still wired
+wireless towers: only receive and send wirelessly, but they are connected to the infrastructure via wired 
+problems with wireless:
+        1. range
+        2. interference
+protocol: 802.11
+characteristics of selected wireless links: 
+        - 4G: 5-11 MBps
+        - 3G: ~4   MBps
+        - 2G: ~0.5 MBps
+handoff:
+        1. tries to maintain wireless continuity 
+        2. Example: phone connecting to free wireless network
+        3. Example: when traveling from work to home, work network > wireless network > home network
+indoor protocols: 
+        1. bluetooth: 802.11ac
+        2. wifi: 802.11n
+adhoc network: network between two nodes, similar to peer-to-peer (P2P)
+        - EX: sensors that are talking to each other 
+
+single hop: 
+        infrastructure: host connects to base station which connects to larger internet
+        no infrastructure: no base station, no connection to larger internet 
+
+Bit Error Rate: signal to noise ratio
+if you get very good signal: and low nosie, you'll get more flipped bits 
+SNR: signal-to-noise ratio
+BER: bit-error-rate
+larger SNR: easier to extract signal from noise
+SNR vs BER tradeoff: 
+        given physical layer: increase power > increase SNR > decrease BER
+        given SNR: choose physical layer that meets BER requirement given highest throughput
+                SNR may change with mobility: dynamically adapt physical layer
+Code Division Multiple Acces (CDMA) : 
+        1. each user gets a code i.e. 0101
+        2. the data is spread across that code i.e. 11
+        3. a 'spread' is created by spreading the data across the code then XOR them to receive your spread
+        4. i.e. 0101 0101
+                1111 0000
+            xor 1010 0101
+                this is your spread
+Over the medium: wave forms are created, the voltages    

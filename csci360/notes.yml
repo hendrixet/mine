@@ -41,4 +41,18 @@ GoF Design Patterns and GRASP:
 
 Liskov Substitution Principle:
     idea: any class should be able to be substituted by another class and the code should not break 
-    
+
+Facade:
+
+POINTS OF VIEW
+
+different points of view: shows that the arhitect considers everything and is not monolithic 
+    logical view: UML diagram based on the package diagram, shows the layers of a software system
+    deployment view: a kind of a UML diagram that relates the hardware and software
+        details: may be included in the deployment view i.e. computer specifications
+        shows: where different aspects of the system will run
+    data view: shows flow of data, where the information will move as the program executes 
+
+    Use Case View: sequence diagram with lifelines and method exchanges - shows use cases that apply to each layer of the sequence diagram 
+        describes: the message passing for a specific scenario
+

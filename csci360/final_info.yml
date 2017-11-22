@@ -1,0 +1,27 @@
+important material: 
+    UML Diagrams:
+        - class
+        - ssds
+        - communication
+        - sequence diagrams
+        - activity
+        - state
+    Software Lifecycle:
+        interative: set of iterations that repeat until final product is achieved, constantly re-evaluate specifications, communicate with clients, etc...
+        waterfall: receive specifications up front and create a final product
+    Legal Issues and software development:
+    test driven development: 
+    design patterns:
+        GRASP: information expert, creator, etc...
+        GoF: "Gang of Four", Ch. 26, singleton, pure fabrication, etc...
+    LSP: Liskovf's Substitution principle
+        polymorphism: why did you use polymorphism? Why is it right? 
+
+Type of questions:
+    - new: recognize design pattern from its UML diagram
+    - new: apply a design pattern to solve a problem
+    - new: compare design patterns
+    - new: write java code given an UML diagram
+    - design a UML diagram based on the description
+    - software architecture and design analytical thinking questions
+
